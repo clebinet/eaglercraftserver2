@@ -4,8 +4,8 @@ const net = require("net");
 const PORT = process.env.PORT || 27232;
 
 // ⚠️ CHANGE ICI
-const MINECRAFT_HOST = " https://apply-innocent-included-almost.trycloudflare.com"; 
-const MINECRAFT_PORT = 27232;
+const MINECRAFT_HOST = "game46-dc02.ouiheberg.com"; 
+const MINECRAFT_PORT = 25472;
 
 const wss = new WebSocket.Server({ port: PORT });
 
